@@ -1,18 +1,24 @@
 {
-  "name": "sit725-3.2p",
+  "name": "sit725",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjana-46/SIT725.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.2",
-    "jquery": "^3.7.1",
-    "materialize-css": "^1.0.0"
+  "bugs": {
+    "url": "https://github.com/Sanjana-46/SIT725/issues"
   },
-  "description": ""
+  "homepage": "https://github.com/Sanjana-46/SIT725#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
