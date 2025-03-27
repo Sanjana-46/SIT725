@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to Task 2.2P Express Web Server!");
 });
 
-// Addition API Endpoint
+
 app.get("/add", (req, res) => {
   let num1 = parseFloat(req.query.num1);
   let num2 = parseFloat(req.query.num2);
