@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIT 725 - Task 3.2P</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper navbar-size">
+            <a href="#" class="brand-logo"><img class="user-image-size" src="images/logo.png" /></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1 class="center-align">Welcome to SIT725 Task 3.2P</h1>
+        <p class="flow-text center-align">Enhancing the design with Materialize and interactive components.</p>
+
+        <div class="row" id="card-section">
+            
+        </div>
+
+        <div class="center-align">
+            <a class="waves-effect waves-light btn modal-trigger" id="clickMeButton" data-target="modal1">Click Me</a>
+        </div>
+    </main>
+
+    
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Submit Your Details</h4>
+            <form id="submitForm">
+                <div class="input-field">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
